@@ -1,0 +1,159 @@
+{
+  "appPermission": {
+    "message": "The application permissions are not properly set. Please add additional permissions and try again",
+    "link": {
+      "label": "Learn more",
+      "href": "https://solidsdk.inrupt.net/public/general/en/app-permissions.html"
+    }
+  },
+  "notifications": {
+    "success": "Success",
+    "error": "Error",
+    "unknownError": "An unknown error has occurred",
+    "404": "Editing a new document.",
+    "errorLoading": "There was an error loading your file, please try again.",
+    "errorSaving": "There was an error saving your file, please try again.",
+    "errorFetching": "Error fetching document.",
+    "accessGranted": "Co-editor now has read/write access.",
+    "errorGrantingAccess": "There was an error giving access to your file, please try again.",
+    "saved": "Your file was saved successfully.",
+    "notEditable": "(not editable)",
+    "notSharable": "(log in and load a doc on your own pod to give others access)"
+  },
+  "login": {
+    "title": "Hi! Welcome to Solid.",
+    "loginTitle": "Log in",
+    "register": "Register for a solid identity",
+    "solidHelp": "What is a Solid Identity?",
+    "providerPlaceholder": "Select ID Provider",
+    "selectPlaceholder": "Select ID Provider",
+    "inputPlaholder": "WebID",
+    "formButtonText": "Log In",
+    "btnTxtWebId": "Log In with WebId",
+    "btnTxtProvider": "Log In with Provider",
+    "errors": {
+      "unknown": "Something is wrong, please try again...",
+      "webIdNotValid": "WebID is not valid",
+      "emptyProvider": "Solid Provider is required",
+      "emptyWebId": "Valid WebID is required"
+    }
+  },
+  "register": {
+    "title": "Hi! Welcome to Solid.",
+    "step1Title": "Select your Provider",
+    "whatIsAProvider": "What is a provider, and how should I choose one?",
+    "alreadySolid": "I already have a Solid identity",
+    "next": "Next"
+  },
+  "navBar": {
+    "map": "Map",
+    "welcome": "Welcome",
+    "seeRoutes": "See Routes",
+    "createRoutes":"Create A Route",
+    "manageFriends":"Manage Friends",
+    "formModel": "Form Model",
+    "logOut": "Log out",
+    "profile": "Profile",
+    "formModelRender": "Form Model Render",
+    "formModelConvert": "Form Model Convert",
+    "text-editor": "Text Editor",
+    "changeLanguage": "Change Language",
+    "languages": {
+      "en": "English (English)",
+      "es": "Español (Spanish)"
+    },
+    "notifications": {
+      "global": "Global",
+      "tictactoe": "TicTacToe Game",
+      "noinbox": "Global inbox not found. Please create one and try again.",
+      "fetchingError": "Error fetching notifications from Pod"
+    },
+    "tictactoe": "Game"
+  },
+  "footer": {
+    "version": "Version"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "content": "There may be an error in the URL entered into your web browser. Please check the URL and try again. Or the page you're looking for has been moved or deleted",
+    "redirectButton": "Take me back to the welcome page"
+  },
+  "welcome": {
+    "welcome": "Welcome",
+    "doneMessage": "All done ?",
+    "title": "<0>Welcome to the route management application ViaDe</0>",
+    "description": "<0>This application is designed to manage routes created by the user using the <1>Linked Data</1> technology and <2>SOLID</2> PODs. The user may visualize their routes on a map, create new routes and share them among their friends (and see the routes of said friends).</0>",
+    "githubTiitle": "Github",
+    "githubText": "<0>This application is open source and complies with the route storing standard for SOLID <1>viadeSpec</1>. You can check the source code on the Github <2>repository</2>.</0>",
+    "implementing": "This latest release builds on the prior versions:",
+    "version010": "<0><0><0>Internationalization</0> best practices, with application session language selection.</0><0>Ability to update your profile image on the Welcome page.</0> </0>",
+    "version030": "<0><0>Implementing the ability to view and edit your <1>User Profile</1></0><1>Including an Application Footer that displays the build number and links to resources.</1><2>Addressing several minor issues based on user feedback.</2></0>",
+    "upload": "Upload New Photo",
+    "successTitle": "Success",
+    "uploadSuccess": "Profile Image was updated",
+    "uploadingText": "Uploading",
+    "errorTitle": "Error",
+    "errors": {
+      "sizeLimit": "File size exceeds the allowable limit ({{limit}})",
+      "unsupported": "Unsupported media type",
+      "maximumFiles": "Sorry, you have exceeded the maximum number of files allowed per upload"
+    }
+  },
+  "profile": {
+    "successCallback": "Pod updated successfully",
+    "successTitle": "Success",
+    "errorCallback": "Error submitting form",
+    "errorTitle": "Error",
+    "saveBtn": "Save",
+    "resetBtn": "Reset",
+    "addBtn": "+ Add new ",
+    "deleteBtn": "Remove",
+    "dropdownDefaultText": "- Select -",
+    "upload": "Upload New Photo",
+    "uploadSuccess": "Profile Image was updated",
+    "uploadingText": "Uploading",
+    "updateSuccess": "Profile was updated successfully",
+    "nameRequired": "Name is required",
+    "errors": {
+      "default": "Something is wrong, please try again...",
+      "406": "Please ensure the form is valid",
+      "500": "An error has occurred in the server",
+      "sizeLimit": "File size exceeds the allowable limit ({{limit}})",
+      "unsupported": "Unsupported media type",
+      "maximumFiles": "Sorry, you have exceeded the maximum number of files allowed per upload"
+    },
+    "autosaveNotification": "Profile changes are saved immediately. There is no undo.",
+    "warningResolution": "Field value has been updated to:",
+    "minMxNumberInclusive": "Error: Min and max should be ",
+    "minMxNumberExclusive": "Error: Min and max value should be ",
+    "minMaxString": "Error: Min and max should be ",
+    "defaultError": "Error: Field value has wrong format"
+  },
+  "mapView":{
+    "viewTitle":"Visualizing the route: ",
+    "menu":{
+      "images":"Images and videos",
+      "comments": "Comments",
+      "data":"Data about the route"
+    }
+  },
+  "friendsManagement":{
+    "profile": "View Profile",
+    "delete": "Delete Friend"
+  },
+  "editor": {
+    "explanation": "This simple text editor enables you to create a plaintext file and save it in a Pod. To make this very clear for the demo you provide a URL as an absolute path to the file in the Pod. The Pod can be the one this App has been logged into or another person's Pod. To write, and read, into another person's Pod the owner will have had to provide you with write permission.",
+    "url": "URL",
+    "friend": "Co-editor's webid",
+    "load": "Load",
+    "save": "Save",
+    "grantAccess": "Grant Access"
+  },
+  "manageFriends": {
+    "viewProfile": "View profile",
+    "delete": "Delete",
+    "viewRoutes": "View routes"
+  },"utils":{
+    "back": "Back"
+  }
+}
